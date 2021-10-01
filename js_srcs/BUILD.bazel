@@ -1,0 +1,5 @@
+load("@npm//eslint:index.bzl", "eslint")
+
+eslint(
+    name = "lint",
+)
